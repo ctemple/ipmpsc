@@ -42,7 +42,7 @@ errno = "0.2"
 
 [build-dependencies]
 anyhow = "1"
-vergen = "5"
+vergen = {version = "5", features=[]}
 
 [profile.release]
 debug = true

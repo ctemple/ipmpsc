@@ -24,7 +24,7 @@ thiserror = "1"
 anyhow = { version = "1", optional = true }
 
 [target.'cfg(windows)'.dependencies]
-winapi = { version = "0.3", features = ["synchapi"] }
+winapi = { version = "0.3", features = ["synchapi","winerror","errhandlingapi"] }
 sha2 = "0.9"
 hex = "0.4"
 

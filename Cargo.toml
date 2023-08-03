@@ -40,9 +40,5 @@ serde_bytes = "0.11"
 [target.'cfg(unix)'.dev-dependencies]
 errno = "0.2"
 
-[build-dependencies]
-anyhow = "1"
-vergen = {version = "5", features=[]}
-
 [profile.release]
 debug = true
